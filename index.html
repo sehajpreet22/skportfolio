@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link ref="icon" type="jpeg" href="images/fevicon.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="images/Lo.jpeg" alt="" class="img-fluid">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav menu-navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonial">Testimonial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                  </li>
+                  <li class="nav-item mt-3 mt-lg-0">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+      <section id="home" class="home">
+        <div class="banner_wrapper wrapper"> 
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-6 order-md-1 order-2">
+                <h3>Better Life Through</h3>
+                <h1>Better Hospital</h1>
+                <p>Join us to a fun and friendly environment.Our professionals are working so hard
+                  to see smile on your face that you deserve! we are dediacated about our duties.</p>
+                  <button type="button" class="main-btn mt-4 fill-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Appointment
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="staticBackdropLabel">Appointment Form</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                       
+                          <form action="clinic.php" method="post">
+                            <div class="mb-3">
+                              <label for="exampleInputname" class="form-label">Name</label>
+                              <input type="name" class="form-control" id="exampleInputname" aria-describedby="nameHelp" name="name">
+                              
+                             <div class="mb-3">
+                              <label for="exampleInputage" class="form-label">Age</label>
+                              <input type="number" class="form-control" id="exampleInputage" name="age">
+                              </div>
+                               <div class="modal-footer">
+                                <button type="submit" class="main-btn mt-4 fill-btn">Submit</button>
+
+                               </div>
+                             </div>
+                          </form>
+                       </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="#"class="main-btn mt-4 ms-3">Learn More</a>
+              </div>
+              <div class="col-md-6 order-md-2 order-1 mb-md-0 mb-5">
+                <div class="top-right-sec">
+                  <div class="animate-img">
+                    <img src="images/anim2.webp" alt="" class="aimg">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div></div>
+        <div class="wrapper pb-0">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 cil-sm-6 mb-4">
+                <div class="card text-center">
+                  <div class="icon-box">
+                    <img src="images/images/top-banner-img/Appointment-icon.png" alt="" class="src">
+                  </div>
+                  <div>
+                    <h4>Easy Appointment</h4>
+                    <p>it is very good hospital. you can get appointments easily.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 cil-sm-6 mb-4">
+                <div class="card text-center">
+                  <div class="icon-box">
+                    <img src="images/images/top-banner-img/Emergency-icon.png" alt="" class="src">
+                  </div>
+                  <div>
+                    <h4>Emergency Service</h4>
+                    <p>it is very good hospital. you can get appointments easily.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 cil-sm-6 mb-4">
+                <div class="card text-center">
+                  <div class="icon-box">
+                    <img src="images/images/top-banner-img/7-Service-icon.png" alt="" class="src">
+                  </div>
+                  <div>
+                    <h4>24/7 service</h4>
+                    <p>it is very good hospital. you can get appointments easily.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <section id="about" class="about_wrapper wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-mb-0 mb-5">
+            <div class="position-relative">
+              <img src="./images/about.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-6 text-center text-md-start">
+            <h2>Welcome to a Family</h2>
+            <p>
+              We Are Always Ready to Help You & Your Family.
+              
+              Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet.
+              </p>
+              <div class="mt-5 card">
+                <div class="about-clinic">
+                  <h4>500+</h4>
+                  <p>Happy Patients</p>
+                </div>
+                <div class="about-clinic">
+                  <h4>88+</h4>
+                  <p>Qualified Doctors</p>
+                </div>
+                <div class="about-clinic">
+                  <h4>25+</h4>
+                  <p>Years Experience</p>
+                </div>
+                <div class="about-clinic">
+                  <h4>55+</h4>
+                  <p>Medical Awards</p>
+                </div>
+              <span class="line-1"></span>
+              <span class="line-2"></span>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+        <section id="services" class="services_wrapper wrapper">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 text-center mb-5">
+                  <h3>Our Services</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                  <div class="card">
+                    <div class="icon-box">
+                      <img src="./images/service1.jpg" alt="" class="">
+                    </div>
+                    <div>
+                      <h4>Complete Medical</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>
+                      <a href="#" class="main-btn mt-4">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                  <div class="card">
+                    <div class="icon-box">
+                      <img src="./images/service2.jpg" alt="" class="">
+                    </div>
+                    <div>
+                      <h4>Complete Medical</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>
+                      <a href="#" class="main-btn mt-4">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                  <div class="card">
+                    <div class="icon-box">
+                      <img src="./images/service3.jpg" alt="" class="">
+                    </div>
+                    <div>
+                      <h4>Complete Medical</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>
+                      <a href="#" class="main-btn mt-4">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                  <div class="card">
+                    <div class="icon-box">
+                      <img src="./images/service4.jpg" alt="" class="">
+                    </div>
+                    <div>
+                      <h4>Complete Medical</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>
+                      <a href="#" class="main-btn mt-4">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                  <div class="card">
+                    <div class="icon-box">
+                      <img src="./images/service5.jpg" alt="" class="">
+                    </div>
+                    <div>
+                      <h4>Complete Medical</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>
+                      <a href="#" class="main-btn mt-4">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                  <div class="card">
+                    <div class="icon-box">
+                      <img src="./images/service6.jpg" alt="" class="">
+                    </div>
+                    <div>
+                      <h4>Complete Medical</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>
+                      <a href="#" class="main-btn mt-4">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <section id="team"class="team_wrapper wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 text-center mb-5">
+                <h3 class="text-black">Our Doctors</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card rounded-3">
+                  <div class="team-img">
+                    <img src="./images/d1.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="team-info pt-4 text-center">
+                    <h5>Darry Milin</h5>
+                    <p>Heart Surgeon</p>
+                    <ul class="social-network">
+                      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                      <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card rounded-3">
+                  <div class="team-img">
+                    <img src="./images/d2.webp" alt="" class="img-fluid">
+                  </div>
+                  <div class="team-info pt-4 text-center">
+                    <h5>Rosilia</h5>
+                    <p>Child Specilist</p>
+                    <ul class="social-network">
+                      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                      <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card rounded-3">
+                  <div class="team-img">
+                    <img src="./images/d3.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="team-info pt-4 text-center">
+                    <h5>David</h5>
+                    <p>Oral Surgeon</p>
+                    <ul class="social-network">
+                      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                      <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="gallery" class="gallery_wrapper wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 text-center mb-5">
+                <h3>Our Gallery</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 col-sm-6 mb-4">
+                <img src="./images/g1.jpg" alt="" class="w-100 h-100">
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <img src="./images/g2.jpg" alt="" class="w-100 h-100">
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <img src="./images/g3.jpg" alt="" class="w-100 h-100">
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <img src="./images/g5.jpg" alt="" class="w-100 h-100">
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <img src="./images/g4.jpg" alt="" class="w-100 h-100">
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <img src="./images/g6.jpg" alt="" class="w-100 h-100">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="testimonial" class="testimonial_wrapper wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 text-center mb-4">
+                <h3 class="text-black">Testimonials</h3>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-xl-3 col-md-6 col-sm-4">
+                <div class="card text-center">
+                  <img src="./images/testi.jpg" alt="" class="img-fluid">
+                  <h4 class="pt-4 mb-0"> Alice colby</h4>
+                  <p class="">CEO of Prime IT</p>
+                </div>
+              </div>
+              <div class="col-xl-9 col-md-8 col-sm-6 ps-md-4 pt-sm-0 pt-4">
+                <h4>Awesome Work</h4>
+                  <p>"They really took my individual case to heart. Their team is very helpful. They all work together in a impressive way to make sure that my needs were met and I walked out pain free."</p>
+
+              </div>
+            </div>
+          </div>
+        </section>
+         <section class="appointment_wrapper wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-8 col-10">
+                <h3>Request your appointment and start your healthy makeover!</h3>
+                <button type="button" class="main-btn mt-4 fill-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                   Request Appointment
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Appointment Form</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form action="clinic.php" method="post">
+                          <div class="mb-3">
+                            <label for="exampleInputname" class="form-label">Name</label>
+                            <input type="name" class="form-control" id="exampleInputname" aria-describedby="nameHelp" name="name">
+                         
+                           <div class="mb-3">
+                            <label for="exampleInputage" class="form-label">Age</label>
+                            <input type="number" class="form-control" id="exampleInputage" name="age">
+                          </div>
+                          <div class="modal-footer">
+                          <button type="submit" class="main-btn mt-4 fill-btn">Submit</button>
+                          </div>
+                        </div>
+                        </form>
+                     
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         </section>
+          <section  id="blog" class="blog_wrapper wrapper">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 text-center mb-5">
+                  <h3 class="text-black">Latest Blog</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                  <div class="card p-0 border-0 rounded-0">
+                    <img src="images/images/blog/1.jpg" alt="" class="">
+                    <div class="blog-content">
+                      <h5 class="text-white mb-4">Health insurance with Benefits</h5>
+                      <h6 class="text-white">By Admin-June 18, 2023</h6>
+                      <p class="mt-2 text-white">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>
+                      <a href="#" class="main-btn mt-2">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                  <div class="card p-0 border-0 rounded-0">
+                    <img src="images/images/blog/2.jpg" alt="" class="">
+                    <div class="blog-content">
+                      <h5 class="text-white mb-4">Health insurance with Benefits</h5>
+                      <h6 class="text-white">By Admin-June 18, 2023</h6>
+                      <p class="mt-2 text-white">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>
+                      <a href="#" class="main-btn mt-2">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                  <div class="card p-0 border-0 rounded-0">
+                    <img src="images/images/blog/3.jpg" alt="" class="">
+                    <div class="blog-content">
+                      <h5 class="text-white mb-4">Health insurance with Benefits</h5>
+                      <h6 class="text-white">By Admin-June 18, 2023</h6>
+                      <p class="mt-2 text-white">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>
+                      <a href="#" class="main-btn mt-2">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+         
+          <section id="Contact" class="footer_wrapper wrapper">
+            <div class="container pb-3">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                  <h5>Clinic Location</h5>
+                  <p class="ps-0">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.
+                </p>
+                <div class="contact-info">
+                  <ul class="list-unstyled">
+                    <li><a href="#" class=""><i class="fa fa-home me-3"></i>No. 96,South City,  London</a></li>
+                    <li><a href="#" class=""><i class="fa fa-phone me-3"></i>+1 222 3333</a></li>
+                    <li><a href="#" class=""><i class="fa fa-envelope me-3"></i>info@gmail.com</a></li>
+                  </ul>
+                </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                  <h5>
+                    More Links
+                  </h5>
+                  <ul class="link-winget p-0">
+                    <li><a href="#" class=""><i class="fa fa-angle-right" aria-hidden="true"></i>About Us</a></li>
+                    <li><a href="#" class=""><i class="fa fa-angle-right" aria-hidden="true"></i>Our Office</a></li>
+                    <li><a href="#" class=""><i class="fa fa-angle-right" aria-hidden="true"></i>Delivery</a></li>
+                    <li><a href="#" class=""><i class="fa fa-angle-right" aria-hidden="true"></i>Our Store</a></li>
+                    <li><a href="#" class=""><i class="fa fa-angle-right" aria-hidden="true"></i>Guarantee</a></li>
+                    <li><a href="#" class=""><i class="fa fa-angle-right" aria-hidden="true"></i>Buy Gift Card</a></li>
+                    <li><a href="#" class=""><i class="fa fa-angle-right" aria-hidden="true"></i>Return Policy</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                  <h5>
+                    More Links
+                  </h5>
+                  <ul class="link-winget p-0">
+                    <li><a href="#" class=""><i class="fa fa-angle-right" aria-hidden="true"></i>About Us</a></li>
+                    <li><a href="#" class=""><i class="fa fa-angle-right" aria-hidden="true"></i>Our Office</a></li>
+                    <li><a href="#" class=""><i class="fa fa-angle-right" aria-hidden="true"></i>Delivery</a></li>
+                    <li><a href="#" class=""><i class="fa fa-angle-right" aria-hidden="true"></i>Our Store</a></li>
+                    <li><a href="#" class=""><i class="fa fa-angle-right" aria-hidden="true"></i>Guarantee</a></li>
+                    <li><a href="#" class=""><i class="fa fa-angle-right" aria-hidden="true"></i>Buy Gift Card</a></li>
+                    <li><a href="#" class=""><i class="fa fa-angle-right" aria-hidden="true"></i>Return Policy</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                  <h5>Newsletter</h5>
+                  <form action="clinic1.php" method="post">
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputemail" aria-describedby="emailHelp" name="email">
+                      </div>
+                      <button type="submit" class="main-btn mt-4 fill-btn" value="Subscribe">Subscribe</button>
+                    </form>
+                  <h5>Stay Connected</h5>
+                  <ul class="social-network d-flex align-items-center p-0">
+                    <li><a href="#" ><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" ><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" ><i class="fab fa-google-plus-g"></i></a></li>
+                    <li><a href="#" ><i class="fab fa-instagram"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid copyright-section">
+              <p class="p-0">Copyright<a href="#">@sehajpreet22.</a>All Rights Reserved</p>
+            </div>
+          </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
